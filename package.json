@@ -1,0 +1,57 @@
+{
+	"name": "min-opaque",
+	"displayName": "Min Opaque Theme",
+	"description": "A VS Code theme that is opaque.",
+	"publisher": "expalmer",
+	"license": "MIT",
+	"version": "1.0.0",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/expalmer/min-opaque-vscode-theme"
+	},
+	"bugs": {
+		"url": "https://github.com/expalmer/min-opaque-vscode-theme/issues"
+	},
+	"engines": {
+		"vscode": "^1.45.0"
+	},
+	"scripts": {
+		"build": "node build.js",
+		"watch": "npm run build && chokidar \"tokens/**/*.json5\" -c \"npm run build\"",
+		"start": "npm run watch",
+		"prepublish": "npm run build",
+		"publish": "vsce publish"
+	},
+	"galleryBanner": {
+		"color": "#0C001F",
+		"theme": "dark"
+	},
+	"icon": "images/icon.png",
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"Min Opaque",
+		"Dark Theme",
+		"Style Dictionary"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Min Opaque",
+				"uiTheme": "vs-dark",
+				"path": "./build/min-opaque-dark.color-theme.json"
+			}
+		]
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"chokidar-cli": "^2.1.0",
+		"style-dictionary": "^2.10.0"
+	},
+	"__metadata": {
+		"id": "",
+		"publisherDisplayName": "",
+		"publisherId": ""
+	}
+}

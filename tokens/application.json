@@ -1,0 +1,236 @@
+{
+  "activityBar.background": {
+    "value": "{core.#1A1A1A.value}"
+  },
+  "activityBar.foreground": {
+    "value": "{core.#7D7D7D.value}"
+  },
+  "activityBarBadge.background": {
+    "value": "{core.#383838.value}"
+  },
+  "badge.background": {
+    "value": "{core.#383838.value}"
+  },
+  "badge.foreground": {
+    "value": "{core.#C1C1C1.value}"
+  },
+  "button.background": {
+    "value": "{core.#333.value}"
+  },
+  "editor.background": {
+    "value": "{core.#1f1f1f.value}"
+  },
+  "editor.lineHighlightBorder": {
+    "value": "{core.#303030.value}"
+  },
+  "editorGroupHeader.tabsBackground": {
+    "value": "{core.#1A1A1A.value}"
+  },
+  "editorGroupHeader.tabsBorder": {
+    "value": "{core.#1A1A1A.value}"
+  },
+  "editorSuggestWidget.background": {
+    "value": "{core.#1A1A1A.value}"
+  },
+  "focusBorder": {
+    "value": "{core.#444.value}"
+  },
+  "foreground": {
+    "value": "{core.#888888.value}"
+  },
+  "gitDecoration.ignoredResourceForeground": {
+    "value": "{core.#444444.value}"
+  },
+  "input.background": {
+    "value": "{core.#2A2A2A.value}"
+  },
+  "input.foreground": {
+    "value": "{core.#E0E0E0.value}"
+  },
+  "list.activeSelectionBackground": {
+    "value": "{core.#212121.value}"
+  },
+  "list.activeSelectionForeground": {
+    "value": "{core.#F5F5F5.value}"
+  },
+  "list.focusBackground": {
+    "value": "{core.#292929.value}"
+  },
+  "list.highlightForeground": {
+    "value": "{core.#EAEAEA.value}"
+  },
+  "list.hoverBackground": {
+    "value": "{core.#262626.value}"
+  },
+  "list.hoverForeground": {
+    "value": "{core.#9E9E9E.value}"
+  },
+  "list.inactiveSelectionBackground": {
+    "value": "{core.#212121.value}"
+  },
+  "list.inactiveSelectionForeground": {
+    "value": "{core.#F5F5F5.value}"
+  },
+  "panelTitle.activeBorder": {
+    "value": "{core.#1f1f1f.value}"
+  },
+  "panelTitle.activeForeground": {
+    "value": "{core.#FAFAFA.value}"
+  },
+  "panelTitle.inactiveForeground": {
+    "value": "{core.#484848.value}"
+  },
+  "peekView.border": {
+    "value": "{core.#444.value}"
+  },
+  "peekViewEditor.background": {
+    "value": "{core.#242424.value}"
+  },
+  "pickerGroup.border": {
+    "value": "{core.#363636.value}"
+  },
+  "pickerGroup.foreground": {
+    "value": "{core.#EAEAEA.value}"
+  },
+  "progressBar.background": {
+    "value": "{core.#FAFAFA.value}"
+  },
+  "scrollbar.shadow": {
+    "value": "{core.#1f1f1f.value}"
+  },
+  "sideBar.background": {
+    "value": "{core.#1A1A1A.value}"
+  },
+  "sideBarSectionHeader.background": {
+    "value": "{core.#202020.value}"
+  },
+  "statusBar.background": {
+    "value": "{core.#1A1A1A.value}"
+  },
+  "statusBar.debuggingBackground": {
+    "value": "{core.#1A1A1A.value}"
+  },
+  "statusBar.foreground": {
+    "value": "{core.#7E7E7E.value}"
+  },
+  "statusBar.noFolderBackground": {
+    "value": "{core.#1A1A1A.value}"
+  },
+  "statusBarItem.remoteForeground": {
+    "value": "{core.#7E7E7E.value}"
+  },
+  "statusBarItem.remoteBackground": {
+    "value": "{core.#1a1a1a00.value}"
+  },
+  "statusBarItem.prominentBackground": {
+    "value": "{core.#fafafa1a.value}"
+  },
+  "tab.activeBorder": {
+    "value": "{core.#1e1e1e.value}"
+  },
+  "tab.activeForeground": {
+    "value": "{core.#FAFAFA.value}"
+  },
+  "tab.border": {
+    "value": "{core.#1A1A1A.value}"
+  },
+  "tab.inactiveBackground": {
+    "value": "{core.#1A1A1A.value}"
+  },
+  "tab.inactiveForeground": {
+    "value": "{core.#727272.value}"
+  },
+  "textLink.foreground": {
+    "value": "{core.#CCC.value}"
+  },
+  "textLink.activeForeground": {
+    "value": "{core.#fafafa.value}"
+  },
+  "titleBar.activeBackground": {
+    "value": "{core.#1A1A1A.value}"
+  },
+  "titleBar.border": {
+    "value": "{core.#00000000.value}"
+  },
+  "terminal.ansiBrightBlack": {
+    "value": "{core.#5c5c5c.value}"
+  },
+  "inputOption.activeBackground": {
+    "value": "{core.#3a3a3a.value}"
+  },
+  "debugIcon.continueForeground": {
+    "value": "{core.#FF7A84.value}"
+  },
+  "debugIcon.disconnectForeground": {
+    "value": "{core.#FF7A84.value}"
+  },
+  "debugIcon.pauseForeground": {
+    "value": "{core.#FF7A84.value}"
+  },
+  "debugIcon.restartForeground": {
+    "value": "{core.#79b8ff.value}"
+  },
+  "debugIcon.startForeground": {
+    "value": "{core.#79b8ff.value}"
+  },
+  "debugIcon.stepBackForeground": {
+    "value": "{core.#FF7A84.value}"
+  },
+  "debugIcon.stepIntoForeground": {
+    "value": "{core.#FF7A84.value}"
+  },
+  "debugIcon.stepOutForeground": {
+    "value": "{core.#FF7A84.value}"
+  },
+  "debugIcon.stepOverForeground": {
+    "value": "{core.#FF7A84.value}"
+  },
+  "debugIcon.stopForeground": {
+    "value": "{core.#79b8ff.value}"
+  },
+  "debugIcon.breakpointCurrentStackframeForeground": {
+    "value": "{core.#79b8ff.value}"
+  },
+  "debugIcon.breakpointDisabledForeground": {
+    "value": "{core.#848484.value}"
+  },
+  "debugIcon.breakpointForeground": {
+    "value": "{core.#FF7A84.value}"
+  },
+  "debugIcon.breakpointStackframeForeground": {
+    "value": "{core.#79b8ff.value}"
+  },
+  "debugIcon.breakpointUnverifiedForeground": {
+    "value": "{core.#848484.value}"
+  },
+  "symbolIcon.classForeground": {
+    "value": "{core.#FF9800.value}"
+  },
+  "symbolIcon.enumeratorForeground": {
+    "value": "{core.#FF9800.value}"
+  },
+  "symbolIcon.eventForeground": {
+    "value": "{core.#FF9800.value}"
+  },
+  "symbolIcon.methodForeground": {
+    "value": "{core.#b392f0.value}"
+  },
+  "symbolIcon.constructorForeground": {
+    "value": "{core.#b392f0.value}"
+  },
+  "symbolIcon.functionForeground": {
+    "value": "{core.#b392f0.value}"
+  },
+  "symbolIcon.fieldForeground": {
+    "value": "{core.#79b8ff.value}"
+  },
+  "symbolIcon.interfaceForeground": {
+    "value": "{core.#79b8ff.value}"
+  },
+  "symbolIcon.variableForeground": {
+    "value": "{core.#79b8ff.value}"
+  },
+  "symbolIcon.enumeratorMemberForeground": {
+    "value": "{core.#79b8ff.value}"
+  }
+}

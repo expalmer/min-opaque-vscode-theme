@@ -1,0 +1,72 @@
+{
+  "syntax": {
+    "support.function|keyword.operator.accessor|meta.group.braces.round.function.arguments|meta.template.expression|markup.fenced_code meta.embedded.block": {
+      "value": "{core.#b392f0.value}"
+    },
+    "emphasis": {
+      "fontStyle": "italic",
+      "value": ""
+    },
+    "strong|markup.heading.markdown|markup.bold.markdown": {
+      "fontStyle": "bold",
+      "value": "{core.#FF7A84.value}"
+    },
+    "markup.italic.markdown": {
+      "fontStyle": "italic",
+      "value": ""
+    },
+    "meta.link.inline.markdown": {
+      "fontStyle": "underline",
+      "value": "{core.#1976D2.value}"
+    },
+    "comment|strings|string|markup.fenced_code|markup.inline": {
+      "value": "{core.#4e5761.value}"
+    },
+    "constant.language|variable.language.this|variable.other.object|variable.other.class|variable.other.constant|meta.property-name|support": {
+      "value": "{core.#79b8ff.value}"
+    },
+    "constant.numeric|constant.other.placeholder|constant.character.format.placeholder|meta.property-value|keyword.other.unit|keyword.other.template|entity.other.attribute-name|support.type.property-name.json": {
+      "value": "{core.#f8f8f8.value}"
+    },
+    "keyword|storage.modifier|storage.type|storage.control.clojure|entity.name.function.clojure|support.function.node|punctuation.separator.key-value|punctuation.definition.template-expression": {
+      "value": "{core.#f97583.value}"
+    },
+    "variable.parameter.function": {
+      "value": "{core.#FF9800.value}"
+    },
+    "entity.name.type|entity.other.inherited-class|meta.function-call|meta.instance.constructor|entity.other.attribute-name|entity.name.function|constant.keyword.clojure": {
+      "value": "{core.#b392f0.value}"
+    },
+    "entity.name.tag|string.quoted|string.regexp|string.interpolated|string.template|keyword.other.template": {
+      "value": "{core.#ffab70.value}"
+    },
+    "token.info-token": {
+      "value": "{core.#316bcd.value}"
+    },
+    "token.warn-token": {
+      "value": "{core.#cd9731.value}"
+    },
+    "token.error-token": {
+      "value": "{core.#cd3131.value}"
+    },
+    "token.debug-token": {
+      "value": "{core.#800080.value}"
+    },
+    "markup.underline.link": {
+      "title": "[Custom] Markdown links",
+      "value": "{core.#ffab70.value}"
+    },
+    "beginning.punctuation.definition.list.markdown": {
+      "title": "[Custom] Markdown list",
+      "value": "{core.#FF7A84.value}"
+    },
+    "punctuation.definition.metadata.markdown": {
+      "title": "[Custom] Markdown punctuation definition",
+      "value": "{core.#ffab70.value}"
+    },
+    "punctuation.definition.string.begin.markdown|punctuation.definition.string.end.markdown": {
+      "title": "[Custom] Markdown punctuation definition brackets",
+      "value": "{core.#79b8ff.value}"
+    }
+  }
+}
