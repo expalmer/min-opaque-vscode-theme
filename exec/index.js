@@ -1,7 +1,8 @@
-const theme = require('./min-dark.json')
+const theme = require('./theme.json')
 const fs = require('fs')
 
 const unique = (item, index, array) => array.indexOf(item) === index
+const toLowerCase = i => i.toLowerCase()
 
 const { colors, tokenColors } = theme
 
@@ -9,12 +10,14 @@ function createCoreColors() {
   const colorsHexa = Object.entries(colors)
     .map(([key, val]) => val)
     .filter(unique)
+    .map(toLowerCase)
     .sort()
 
   const tokenHexa = tokenColors
     .filter(i => i.settings.foreground)
     .map(i => i.settings.foreground)
     .filter(unique)
+    .map(toLowerCase)
     .sort()
 
   const coreColors = [...colorsHexa, ...tokenHexa].sort()
@@ -32,10 +35,10 @@ function createApplication() {
   const colorsHexa = Object.entries(colors)
     .reduce((acc, [key, val]) => ({
       ...acc,
-      [key]: { value: `{core.${val}.value}` }
+      [key]: { value: `{core.${toLowerCase(val)}.value}` }
     }), {})
 
-  fs.writeFile('../tokens/application.json', `{ "app": ${JSON.stringify(colorsHexa)} }`, () => { })
+  fs.writeFile('../tokens/application.json', `${JSON.stringify(colorsHexa)}`, () => { })
 }
 
 function createSyntax() {
@@ -54,7 +57,7 @@ function createSyntax() {
         [token]: {
           ...(name && { title: name }),
           ...(fontStyle && { fontStyle }),
-          value: (foreground ? `{core.${foreground}.value}` : '')
+          value: (foreground ? `{core.${toLowerCase(foreground)}.value}` : '')
         }
       })
     }, {})
@@ -62,8 +65,6 @@ function createSyntax() {
   fs.writeFile('../tokens/syntax.json', `{ "syntax": ${JSON.stringify(tokenHexa)} }`, () => { })
 }
 
-
-createSyntax()
 
 
 

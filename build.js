@@ -23,9 +23,10 @@ StyleDictionary.registerFormat({
     const tokenColors = allProperties
       .filter(({ path: [head] }) => head === 'syntax')
       .map(({ name, value, title, fontStyle }) => {
+        const scope = name.replace('syntax.', '').split('|')
         return {
           ...(title && { name: title }),
-          scope: name.split('|'),
+          ...(scope[0] !== 'settings' && { scope }),
           settings: {
             ...(fontStyle && { fontStyle }),
             ...(value && { foreground: value })

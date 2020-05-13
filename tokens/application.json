@@ -1,236 +1,593 @@
 {
-  "activityBar.background": {
-    "value": "{core.#1A1A1A.value}"
+  "terminal.background": {
+    "value": "{core.black.3.value}"
   },
-  "activityBar.foreground": {
-    "value": "{core.#7D7D7D.value}"
-  },
-  "activityBarBadge.background": {
-    "value": "{core.#383838.value}"
-  },
-  "badge.background": {
-    "value": "{core.#383838.value}"
-  },
-  "badge.foreground": {
-    "value": "{core.#C1C1C1.value}"
-  },
-  "button.background": {
-    "value": "{core.#333.value}"
-  },
-  "editor.background": {
-    "value": "{core.#1f1f1f.value}"
-  },
-  "editor.lineHighlightBorder": {
-    "value": "{core.#303030.value}"
-  },
-  "editorGroupHeader.tabsBackground": {
-    "value": "{core.#1A1A1A.value}"
-  },
-  "editorGroupHeader.tabsBorder": {
-    "value": "{core.#1A1A1A.value}"
-  },
-  "editorSuggestWidget.background": {
-    "value": "{core.#1A1A1A.value}"
-  },
-  "focusBorder": {
-    "value": "{core.#444.value}"
-  },
-  "foreground": {
-    "value": "{core.#888888.value}"
-  },
-  "gitDecoration.ignoredResourceForeground": {
-    "value": "{core.#444444.value}"
-  },
-  "input.background": {
-    "value": "{core.#2A2A2A.value}"
-  },
-  "input.foreground": {
-    "value": "{core.#E0E0E0.value}"
-  },
-  "list.activeSelectionBackground": {
-    "value": "{core.#212121.value}"
-  },
-  "list.activeSelectionForeground": {
-    "value": "{core.#F5F5F5.value}"
-  },
-  "list.focusBackground": {
-    "value": "{core.#292929.value}"
-  },
-  "list.highlightForeground": {
-    "value": "{core.#EAEAEA.value}"
-  },
-  "list.hoverBackground": {
-    "value": "{core.#262626.value}"
-  },
-  "list.hoverForeground": {
-    "value": "{core.#9E9E9E.value}"
-  },
-  "list.inactiveSelectionBackground": {
-    "value": "{core.#212121.value}"
-  },
-  "list.inactiveSelectionForeground": {
-    "value": "{core.#F5F5F5.value}"
-  },
-  "panelTitle.activeBorder": {
-    "value": "{core.#1f1f1f.value}"
-  },
-  "panelTitle.activeForeground": {
-    "value": "{core.#FAFAFA.value}"
-  },
-  "panelTitle.inactiveForeground": {
-    "value": "{core.#484848.value}"
-  },
-  "peekView.border": {
-    "value": "{core.#444.value}"
-  },
-  "peekViewEditor.background": {
-    "value": "{core.#242424.value}"
-  },
-  "pickerGroup.border": {
-    "value": "{core.#363636.value}"
-  },
-  "pickerGroup.foreground": {
-    "value": "{core.#EAEAEA.value}"
-  },
-  "progressBar.background": {
-    "value": "{core.#FAFAFA.value}"
-  },
-  "scrollbar.shadow": {
-    "value": "{core.#1f1f1f.value}"
-  },
-  "sideBar.background": {
-    "value": "{core.#1A1A1A.value}"
-  },
-  "sideBarSectionHeader.background": {
-    "value": "{core.#202020.value}"
-  },
-  "statusBar.background": {
-    "value": "{core.#1A1A1A.value}"
-  },
-  "statusBar.debuggingBackground": {
-    "value": "{core.#1A1A1A.value}"
-  },
-  "statusBar.foreground": {
-    "value": "{core.#7E7E7E.value}"
-  },
-  "statusBar.noFolderBackground": {
-    "value": "{core.#1A1A1A.value}"
-  },
-  "statusBarItem.remoteForeground": {
-    "value": "{core.#7E7E7E.value}"
-  },
-  "statusBarItem.remoteBackground": {
-    "value": "{core.#1a1a1a00.value}"
-  },
-  "statusBarItem.prominentBackground": {
-    "value": "{core.#fafafa1a.value}"
-  },
-  "tab.activeBorder": {
-    "value": "{core.#1e1e1e.value}"
-  },
-  "tab.activeForeground": {
-    "value": "{core.#FAFAFA.value}"
-  },
-  "tab.border": {
-    "value": "{core.#1A1A1A.value}"
-  },
-  "tab.inactiveBackground": {
-    "value": "{core.#1A1A1A.value}"
-  },
-  "tab.inactiveForeground": {
-    "value": "{core.#727272.value}"
-  },
-  "textLink.foreground": {
-    "value": "{core.#CCC.value}"
-  },
-  "textLink.activeForeground": {
-    "value": "{core.#fafafa.value}"
-  },
-  "titleBar.activeBackground": {
-    "value": "{core.#1A1A1A.value}"
-  },
-  "titleBar.border": {
-    "value": "{core.#00000000.value}"
+  "terminal.foreground": {
+    "value": "{core.light.1.value}"
   },
   "terminal.ansiBrightBlack": {
-    "value": "{core.#5c5c5c.value}"
+    "value": "{core.font.1.value}"
   },
-  "inputOption.activeBackground": {
-    "value": "{core.#3a3a3a.value}"
+  "terminal.ansiBrightRed": {
+    "value": "{core.red.2.value}"
   },
-  "debugIcon.continueForeground": {
-    "value": "{core.#FF7A84.value}"
+  "terminal.ansiBrightGreen": {
+    "value": "{core.green.2.value}"
   },
-  "debugIcon.disconnectForeground": {
-    "value": "{core.#FF7A84.value}"
+  "terminal.ansiBrightYellow": {
+    "value": "{core.yellow.1.value}"
   },
-  "debugIcon.pauseForeground": {
-    "value": "{core.#FF7A84.value}"
+  "terminal.ansiBrightBlue": {
+    "value": "{core.purple.2.value}"
   },
-  "debugIcon.restartForeground": {
-    "value": "{core.#79b8ff.value}"
+  "terminal.ansiBrightMagenta": {
+    "value": "{core.pink.2.value}"
   },
-  "debugIcon.startForeground": {
-    "value": "{core.#79b8ff.value}"
+  "terminal.ansiBrightCyan": {
+    "value": "{core.blue.4.value}"
   },
-  "debugIcon.stepBackForeground": {
-    "value": "{core.#FF7A84.value}"
+  "terminal.ansiBrightWhite": {
+    "value": "{core.light.2.value}"
   },
-  "debugIcon.stepIntoForeground": {
-    "value": "{core.#FF7A84.value}"
+  "terminal.ansiBlack": {
+    "value": "{core.black.2.value}"
   },
-  "debugIcon.stepOutForeground": {
-    "value": "{core.#FF7A84.value}"
+  "terminal.ansiRed": {
+    "value": "{core.red.1.value}"
   },
-  "debugIcon.stepOverForeground": {
-    "value": "{core.#FF7A84.value}"
+  "terminal.ansiGreen": {
+    "value": "{core.green.1.value}"
   },
-  "debugIcon.stopForeground": {
-    "value": "{core.#79b8ff.value}"
+  "terminal.ansiYellow": {
+    "value": "{core.yellow.3.value}"
   },
-  "debugIcon.breakpointCurrentStackframeForeground": {
-    "value": "{core.#79b8ff.value}"
+  "terminal.ansiBlue": {
+    "value": "{core.purple.1.value}"
   },
-  "debugIcon.breakpointDisabledForeground": {
-    "value": "{core.#848484.value}"
+  "terminal.ansiMagenta": {
+    "value": "{core.pink.1.value}"
   },
-  "debugIcon.breakpointForeground": {
-    "value": "{core.#FF7A84.value}"
+  "terminal.ansiCyan": {
+    "value": "{core.blue.2.value}"
   },
-  "debugIcon.breakpointStackframeForeground": {
-    "value": "{core.#79b8ff.value}"
+  "terminal.ansiWhite": {
+    "value": "{core.light.1.value}"
   },
-  "debugIcon.breakpointUnverifiedForeground": {
-    "value": "{core.#848484.value}"
+  "contrastBorder": {
+    "value": "{core.black.1.value}"
   },
-  "symbolIcon.classForeground": {
-    "value": "{core.#FF9800.value}"
+  "focusBorder": {
+    "value": "{core.font.1.value}"
   },
-  "symbolIcon.enumeratorForeground": {
-    "value": "{core.#FF9800.value}"
+  "foreground": {
+    "value": "{core.light.1.value}"
   },
-  "symbolIcon.eventForeground": {
-    "value": "{core.#FF9800.value}"
+  "selection.background": {
+    "value": "{core.purple.1.value}"
   },
-  "symbolIcon.methodForeground": {
-    "value": "{core.#b392f0.value}"
+  "errorForeground": {
+    "value": "{core.red.1.value}"
   },
-  "symbolIcon.constructorForeground": {
-    "value": "{core.#b392f0.value}"
+  "button.background": {
+    "value": "{core.black.6.value}"
   },
-  "symbolIcon.functionForeground": {
-    "value": "{core.#b392f0.value}"
+  "button.foreground": {
+    "value": "{core.light.1.value}"
   },
-  "symbolIcon.fieldForeground": {
-    "value": "{core.#79b8ff.value}"
+  "dropdown.background": {
+    "value": "{core.black.4.value}"
   },
-  "symbolIcon.interfaceForeground": {
-    "value": "{core.#79b8ff.value}"
+  "dropdown.border": {
+    "value": "{core.black.1.value}"
   },
-  "symbolIcon.variableForeground": {
-    "value": "{core.#79b8ff.value}"
+  "dropdown.foreground": {
+    "value": "{core.light.1.value}"
   },
-  "symbolIcon.enumeratorMemberForeground": {
-    "value": "{core.#79b8ff.value}"
+  "input.background": {
+    "value": "{core.black.3.value}"
+  },
+  "input.foreground": {
+    "value": "{core.light.1.value}"
+  },
+  "input.border": {
+    "value": "{core.black.1.value}"
+  },
+  "input.placeholderForeground": {
+    "value": "{core.font.1.value}"
+  },
+  "inputOption.activeBorder": {
+    "value": "{core.purple.1.value}"
+  },
+  "inputValidation.infoBorder": {
+    "value": "{core.pink.1.value}"
+  },
+  "inputValidation.warningBorder": {
+    "value": "{core.orange.1.value}"
+  },
+  "inputValidation.errorBorder": {
+    "value": "{core.red.1.value}"
+  },
+  "badge.foreground": {
+    "value": "{core.light.1.value}"
+  },
+  "badge.background": {
+    "value": "{core.black.6.value}"
+  },
+  "progressBar.background": {
+    "value": "{core.pink.1.value}"
+  },
+  "list.activeSelectionBackground": {
+    "value": "{core.black.6.value}"
+  },
+  "list.activeSelectionForeground": {
+    "value": "{core.light.1.value}"
+  },
+  "list.dropBackground": {
+    "value": "{core.black.6.value}"
+  },
+  "list.focusBackground": {
+    "value": "{core.black.6.value}75"
+  },
+  "list.highlightForeground": {
+    "value": "{core.blue.2.value}"
+  },
+  "list.hoverBackground": {
+    "value": "{core.black.6.value}75"
+  },
+  "list.inactiveSelectionBackground": {
+    "value": "{core.black.6.value}75"
+  },
+  "list.warningForeground": {
+    "value": "{core.orange.1.value}"
+  },
+  "list.errorForeground": {
+    "value": "{core.red.1.value}"
+  },
+  "activityBar.background": {
+    "value": "{core.black.4.value}"
+  },
+  "activityBar.inactiveForeground": {
+    "value": "{core.font.1.value}"
+  },
+  "activityBar.foreground": {
+    "value": "{core.light.1.value}"
+  },
+  "activityBar.activeBorder": {
+    "value": "{core.pink.1.value}80"
+  },
+  "activityBar.activeBackground": {
+    "value": "{core.purple.1.value}10"
+  },
+  "activityBarBadge.background": {
+    "value": "{core.pink.1.value}"
+  },
+  "activityBarBadge.foreground": {
+    "value": "{core.light.1.value}"
+  },
+  "sideBar.background": {
+    "value": "{core.black.2.value}"
+  },
+  "sideBarTitle.foreground": {
+    "value": "{core.light.1.value}"
+  },
+  "sideBarSectionHeader.background": {
+    "value": "{core.black.3.value}"
+  },
+  "sideBarSectionHeader.border": {
+    "value": "{core.black.1.value}"
+  },
+  "editorGroup.border": {
+    "value": "{core.purple.1.value}"
+  },
+  "editorGroup.dropBackground": {
+    "value": "{core.black.6.value}70"
+  },
+  "editorGroupHeader.tabsBackground": {
+    "value": "{core.black.1.value}"
+  },
+  "tab.activeBackground": {
+    "value": "{core.black.3.value}"
+  },
+  "tab.activeForeground": {
+    "value": "{core.light.1.value}"
+  },
+  "tab.border": {
+    "value": "{core.black.1.value}"
+  },
+  "tab.activeBorderTop": {
+    "value": "{core.pink.1.value}80"
+  },
+  "tab.inactiveBackground": {
+    "value": "{core.black.2.value}"
+  },
+  "tab.inactiveForeground": {
+    "value": "{core.font.1.value}"
+  },
+  "editor.foreground": {
+    "value": "{core.light.1.value}"
+  },
+  "editor.background": {
+    "value": "{core.black.3.value}"
+  },
+  "editorLineNumber.foreground": {
+    "value": "{core.font.1.value}"
+  },
+  "editor.selectionBackground": {
+    "value": "{core.black.6.value}"
+  },
+  "editor.selectionHighlightBackground": {
+    "value": "{core.black.5.value}"
+  },
+  "editor.foldBackground": {
+    "value": "{core.black.2.value}"
+  },
+  "editor.wordHighlightBackground": {
+    "value": "{core.blue.2.value}50"
+  },
+  "editor.wordHighlightStrongBackground": {
+    "value": "{core.green.1.value}50"
+  },
+  "editor.findMatchBackground": {
+    "value": "{core.orange.1.value}80"
+  },
+  "editor.findMatchHighlightBackground": {
+    "value": "{core.light.2.value}40"
+  },
+  "editor.findRangeHighlightBackground": {
+    "value": "{core.black.6.value}75"
+  },
+  "editor.hoverHighlightBackground": {
+    "value": "{core.black.1.value}"
+  },
+  "editor.lineHighlightBorder": {
+    "value": "{core.black.6.value}"
+  },
+  "editorLink.activeForeground": {
+    "value": "{core.blue.2.value}"
+  },
+  "editor.rangeHighlightBackground": {
+    "value": "{core.purple.1.value}15"
+  },
+  "editor.snippetTabstopHighlightBackground": {
+    "value": "{core.black.3.value}"
+  },
+  "editor.snippetTabstopHighlightBorder": {
+    "value": "{core.font.1.value}"
+  },
+  "editor.snippetFinalTabstopHighlightBackground": {
+    "value": "{core.black.3.value}"
+  },
+  "editor.snippetFinalTabstopHighlightBorder": {
+    "value": "{core.green.1.value}"
+  },
+  "editorWhitespace.foreground": {
+    "value": "{core.light.2.value}1a"
+  },
+  "editorIndentGuide.background": {
+    "value": "{core.light.2.value}1a"
+  },
+  "editorIndentGuide.activeBackground": {
+    "value": "{core.light.2.value}45"
+  },
+  "editorRuler.foreground": {
+    "value": "{core.light.2.value}1a"
+  },
+  "editorCodeLens.foreground": {
+    "value": "{core.font.1.value}"
+  },
+  "editorOverviewRuler.border": {
+    "value": "{core.black.1.value}"
+  },
+  "editorOverviewRuler.selectionHighlightForeground": {
+    "value": "{core.orange.1.value}"
+  },
+  "editorOverviewRuler.wordHighlightForeground": {
+    "value": "{core.blue.2.value}"
+  },
+  "editorOverviewRuler.wordHighlightStrongForeground": {
+    "value": "{core.green.1.value}"
+  },
+  "editorOverviewRuler.modifiedForeground": {
+    "value": "{core.blue.2.value}80"
+  },
+  "editorOverviewRuler.addedForeground": {
+    "value": "{core.green.1.value}80"
+  },
+  "editorOverviewRuler.deletedForeground": {
+    "value": "{core.red.1.value}80"
+  },
+  "editorOverviewRuler.errorForeground": {
+    "value": "{core.red.1.value}80"
+  },
+  "editorOverviewRuler.warningForeground": {
+    "value": "{core.orange.1.value}80"
+  },
+  "editorOverviewRuler.infoForeground": {
+    "value": "{core.blue.2.value}80"
+  },
+  "editorError.foreground": {
+    "value": "{core.red.1.value}"
+  },
+  "editorWarning.foreground": {
+    "value": "{core.blue.2.value}"
+  },
+  "editorGutter.modifiedBackground": {
+    "value": "{core.blue.2.value}80"
+  },
+  "editorGutter.addedBackground": {
+    "value": "{core.green.1.value}80"
+  },
+  "editorGutter.deletedBackground": {
+    "value": "{core.red.1.value}80"
+  },
+  "gitDecoration.modifiedResourceForeground": {
+    "value": "{core.blue.2.value}"
+  },
+  "gitDecoration.deletedResourceForeground": {
+    "value": "{core.red.1.value}"
+  },
+  "gitDecoration.untrackedResourceForeground": {
+    "value": "{core.green.1.value}"
+  },
+  "gitDecoration.ignoredResourceForeground": {
+    "value": "{core.font.1.value}"
+  },
+  "gitDecoration.conflictingResourceForeground": {
+    "value": "{core.orange.1.value}"
+  },
+  "diffEditor.insertedTextBackground": {
+    "value": "{core.green.1.value}20"
+  },
+  "diffEditor.removedTextBackground": {
+    "value": "{core.red.1.value}50"
+  },
+  "editorWidget.background": {
+    "value": "{core.black.2.value}"
+  },
+  "editorSuggestWidget.background": {
+    "value": "{core.black.2.value}"
+  },
+  "editorSuggestWidget.foreground": {
+    "value": "{core.light.1.value}"
+  },
+  "editorSuggestWidget.selectedBackground": {
+    "value": "{core.black.6.value}"
+  },
+  "editorHoverWidget.background": {
+    "value": "{core.black.3.value}"
+  },
+  "editorHoverWidget.border": {
+    "value": "{core.font.1.value}"
+  },
+  "editorMarkerNavigation.background": {
+    "value": "{core.black.2.value}"
+  },
+  "peekView.border": {
+    "value": "{core.black.6.value}"
+  },
+  "peekViewEditor.background": {
+    "value": "{core.black.3.value}"
+  },
+  "peekViewEditor.matchHighlightBackground": {
+    "value": "{core.yellow.3.value}80"
+  },
+  "peekViewResult.background": {
+    "value": "{core.black.2.value}"
+  },
+  "peekViewResult.fileForeground": {
+    "value": "{core.light.1.value}"
+  },
+  "peekViewResult.lineForeground": {
+    "value": "{core.light.1.value}"
+  },
+  "peekViewResult.matchHighlightBackground": {
+    "value": "{core.yellow.3.value}80"
+  },
+  "peekViewResult.selectionBackground": {
+    "value": "{core.black.6.value}"
+  },
+  "peekViewResult.selectionForeground": {
+    "value": "{core.light.1.value}"
+  },
+  "peekViewTitle.background": {
+    "value": "{core.black.1.value}"
+  },
+  "peekViewTitleDescription.foreground": {
+    "value": "{core.font.1.value}"
+  },
+  "peekViewTitleLabel.foreground": {
+    "value": "{core.light.1.value}"
+  },
+  "merge.currentHeaderBackground": {
+    "value": "{core.green.1.value}90"
+  },
+  "merge.incomingHeaderBackground": {
+    "value": "{core.purple.1.value}90"
+  },
+  "editorOverviewRuler.currentContentForeground": {
+    "value": "{core.green.1.value}"
+  },
+  "editorOverviewRuler.incomingContentForeground": {
+    "value": "{core.purple.1.value}"
+  },
+  "panel.background": {
+    "value": "{core.black.3.value}"
+  },
+  "panel.border": {
+    "value": "{core.purple.1.value}"
+  },
+  "panelTitle.activeBorder": {
+    "value": "{core.pink.1.value}"
+  },
+  "panelTitle.activeForeground": {
+    "value": "{core.light.1.value}"
+  },
+  "panelTitle.inactiveForeground": {
+    "value": "{core.font.1.value}"
+  },
+  "statusBar.background": {
+    "value": "{core.black.1.value}"
+  },
+  "statusBar.foreground": {
+    "value": "{core.light.1.value}"
+  },
+  "statusBar.debuggingBackground": {
+    "value": "{core.red.1.value}"
+  },
+  "statusBar.debuggingForeground": {
+    "value": "{core.black.1.value}"
+  },
+  "statusBar.noFolderBackground": {
+    "value": "{core.black.1.value}"
+  },
+  "statusBar.noFolderForeground": {
+    "value": "{core.light.1.value}"
+  },
+  "statusBarItem.prominentBackground": {
+    "value": "{core.red.1.value}"
+  },
+  "statusBarItem.prominentHoverBackground": {
+    "value": "{core.orange.1.value}"
+  },
+  "statusBarItem.remoteForeground": {
+    "value": "{core.light.1.value}"
+  },
+  "statusBarItem.remoteBackground": {
+    "value": "{core.purple.1.value}"
+  },
+  "titleBar.activeBackground": {
+    "value": "{core.black.2.value}"
+  },
+  "titleBar.activeForeground": {
+    "value": "{core.light.1.value}"
+  },
+  "titleBar.inactiveBackground": {
+    "value": "{core.black.1.value}"
+  },
+  "titleBar.inactiveForeground": {
+    "value": "{core.font.1.value}"
+  },
+  "notification.background": {
+    "value": "{core.black.3.value}"
+  },
+  "notification.foreground": {
+    "value": "{core.light.1.value}"
+  },
+  "notification.buttonBackground": {
+    "value": "{core.black.6.value}"
+  },
+  "notification.buttonForeground": {
+    "value": "{core.light.1.value}"
+  },
+  "notification.buttonHoverBackground": {
+    "value": "{core.black.6.value}75"
+  },
+  "notification.errorBackground": {
+    "value": "{core.red.1.value}"
+  },
+  "notification.errorForeground": {
+    "value": "{core.light.1.value}"
+  },
+  "notification.infoBackground": {
+    "value": "{core.blue.2.value}"
+  },
+  "notification.infoForeground": {
+    "value": "{core.black.3.value}"
+  },
+  "notification.warningBackground": {
+    "value": "{core.orange.1.value}"
+  },
+  "notification.warningForeground": {
+    "value": "{core.black.3.value}"
+  },
+  "extensionButton.prominentForeground": {
+    "value": "{core.light.1.value}"
+  },
+  "extensionButton.prominentBackground": {
+    "value": "{core.green.1.value}90"
+  },
+  "extensionButton.prominentHoverBackground": {
+    "value": "{core.green.1.value}60"
+  },
+  "pickerGroup.border": {
+    "value": "{core.purple.1.value}"
+  },
+  "pickerGroup.foreground": {
+    "value": "{core.blue.2.value}"
+  },
+  "debugToolBar.background": {
+    "value": "{core.black.2.value}"
+  },
+  "walkThrough.embeddedEditorBackground": {
+    "value": "{core.black.2.value}"
+  },
+  "settings.headerForeground": {
+    "value": "{core.light.1.value}"
+  },
+  "settings.modifiedItemForeground": {
+    "value": "{core.orange.1.value}"
+  },
+  "settings.modifiedItemIndicator": {
+    "value": "{core.orange.1.value}"
+  },
+  "settings.dropdownBackground": {
+    "value": "{core.black.2.value}"
+  },
+  "settings.dropdownForeground": {
+    "value": "{core.light.1.value}"
+  },
+  "settings.dropdownBorder": {
+    "value": "{core.black.1.value}"
+  },
+  "settings.checkboxBackground": {
+    "value": "{core.black.2.value}"
+  },
+  "settings.checkboxForeground": {
+    "value": "{core.light.1.value}"
+  },
+  "settings.checkboxBorder": {
+    "value": "{core.black.1.value}"
+  },
+  "settings.textInputBackground": {
+    "value": "{core.black.2.value}"
+  },
+  "settings.textInputForeground": {
+    "value": "{core.light.1.value}"
+  },
+  "settings.textInputBorder": {
+    "value": "{core.black.1.value}"
+  },
+  "settings.numberInputBackground": {
+    "value": "{core.black.2.value}"
+  },
+  "settings.numberInputForeground": {
+    "value": "{core.light.1.value}"
+  },
+  "settings.numberInputBorder": {
+    "value": "{core.black.1.value}"
+  },
+  "breadcrumb.foreground": {
+    "value": "{core.font.1.value}"
+  },
+  "breadcrumb.background": {
+    "value": "{core.black.3.value}"
+  },
+  "breadcrumb.focusForeground": {
+    "value": "{core.light.1.value}"
+  },
+  "breadcrumb.activeSelectionForeground": {
+    "value": "{core.light.1.value}"
+  },
+  "breadcrumbPicker.background": {
+    "value": "{core.black.1.value}"
+  },
+  "listFilterWidget.background": {
+    "value": "{core.black.4.value}"
+  },
+  "listFilterWidget.outline": {
+    "value": "{core.black.5.value}"
+  },
+  "listFilterWidget.noMatchesOutline": {
+    "value": "{core.red.1.value}"
   }
 }

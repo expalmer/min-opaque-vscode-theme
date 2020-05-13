@@ -1,72 +1,355 @@
 {
   "syntax": {
-    "support.function|keyword.operator.accessor|meta.group.braces.round.function.arguments|meta.template.expression|markup.fenced_code meta.embedded.block": {
-      "value": "{core.#b392f0.value}"
-    },
     "emphasis": {
       "fontStyle": "italic",
       "value": ""
     },
-    "strong|markup.heading.markdown|markup.bold.markdown": {
+    "strong": {
       "fontStyle": "bold",
-      "value": "{core.#FF7A84.value}"
-    },
-    "markup.italic.markdown": {
-      "fontStyle": "italic",
       "value": ""
     },
-    "meta.link.inline.markdown": {
+    "header": {
+      "value": "{core.purple.1.value}"
+    },
+    "source": {
+      "value": "{core.light.1.value}"
+    },
+    "meta.diff|meta.diff.header": {
+      "value": "{core.font.1.value}"
+    },
+    "markup.inserted": {
+      "value": "{core.green.1.value}"
+    },
+    "markup.deleted": {
+      "value": "{core.red.1.value}"
+    },
+    "markup.changed": {
+      "value": "{core.orange.1.value}"
+    },
+    "invalid": {
+      "fontStyle": "underline italic",
+      "value": "{core.red.1.value}"
+    },
+    "invalid.deprecated": {
+      "fontStyle": "underline italic",
+      "value": "{core.light.1.value}"
+    },
+    "entity.name.filename": {
+      "value": "{core.yellow.3.value}"
+    },
+    "markup.error": {
+      "value": "{core.red.1.value}"
+    },
+    "markup.underline": {
+      "title": "Underlined markup",
       "fontStyle": "underline",
-      "value": "{core.#1976D2.value}"
+      "value": ""
     },
-    "comment|strings|string|markup.fenced_code|markup.inline": {
-      "value": "{core.#4e5761.value}"
+    "markup.bold": {
+      "title": "Bold markup",
+      "fontStyle": "bold",
+      "value": "{core.orange.1.value}"
     },
-    "constant.language|variable.language.this|variable.other.object|variable.other.class|variable.other.constant|meta.property-name|support": {
-      "value": "{core.#79b8ff.value}"
+    "markup.heading": {
+      "title": "Markup headings",
+      "fontStyle": "bold",
+      "value": "{core.purple.1.value}"
     },
-    "constant.numeric|constant.other.placeholder|constant.character.format.placeholder|meta.property-value|keyword.other.unit|keyword.other.template|entity.other.attribute-name|support.type.property-name.json": {
-      "value": "{core.#f8f8f8.value}"
+    "markup.italic": {
+      "title": "Markup italic",
+      "fontStyle": "italic",
+      "value": "{core.yellow.3.value}"
     },
-    "keyword|storage.modifier|storage.type|storage.control.clojure|entity.name.function.clojure|support.function.node|punctuation.separator.key-value|punctuation.definition.template-expression": {
-      "value": "{core.#f97583.value}"
+    "beginning.punctuation.definition.list.markdown|beginning.punctuation.definition.quote.markdown|punctuation.definition.link.restructuredtext": {
+      "title": "Bullets, lists (prose)",
+      "value": "{core.blue.2.value}"
     },
-    "variable.parameter.function": {
-      "value": "{core.#FF9800.value}"
+    "markup.inline.raw|markup.raw.restructuredtext": {
+      "title": "Inline code (prose)",
+      "value": "{core.green.1.value}"
     },
-    "entity.name.type|entity.other.inherited-class|meta.function-call|meta.instance.constructor|entity.other.attribute-name|entity.name.function|constant.keyword.clojure": {
-      "value": "{core.#b392f0.value}"
+    "markup.underline.link|markup.underline.link.image": {
+      "title": "Links (prose)",
+      "value": "{core.blue.2.value}"
     },
-    "entity.name.tag|string.quoted|string.regexp|string.interpolated|string.template|keyword.other.template": {
-      "value": "{core.#ffab70.value}"
+    "meta.link.reference.def.restructuredtext|punctuation.definition.directive.restructuredtext|string.other.link.description|string.other.link.title": {
+      "title": "Link text, image alt text (prose)",
+      "value": "{core.pink.1.value}"
     },
-    "token.info-token": {
-      "value": "{core.#316bcd.value}"
+    "entity.name.directive.restructuredtext|markup.quote": {
+      "title": "Blockquotes (prose)",
+      "fontStyle": "italic",
+      "value": "{core.yellow.3.value}"
     },
-    "token.warn-token": {
-      "value": "{core.#cd9731.value}"
+    "meta.separator.markdown": {
+      "title": "Horizontal rule (prose)",
+      "value": "{core.font.1.value}"
     },
-    "token.error-token": {
-      "value": "{core.#cd3131.value}"
+    "fenced_code.block.language|markup.raw.inner.restructuredtext|markup.fenced_code.block.markdown punctuation.definition.markdown": {
+      "title": "Code blocks",
+      "value": "{core.green.1.value}"
     },
-    "token.debug-token": {
-      "value": "{core.#800080.value}"
+    "punctuation.definition.constant.restructuredtext": {
+      "title": "Prose constants",
+      "value": "{core.purple.1.value}"
     },
-    "markup.underline.link": {
-      "title": "[Custom] Markdown links",
-      "value": "{core.#ffab70.value}"
+    "markup.heading.markdown punctuation.definition.string.begin|markup.heading.markdown punctuation.definition.string.end": {
+      "title": "Braces in markdown headings",
+      "value": "{core.purple.1.value}"
     },
-    "beginning.punctuation.definition.list.markdown": {
-      "title": "[Custom] Markdown list",
-      "value": "{core.#FF7A84.value}"
+    "meta.paragraph.markdown punctuation.definition.string.begin|meta.paragraph.markdown punctuation.definition.string.end": {
+      "title": "Braces in markdown paragraphs",
+      "value": "{core.light.1.value}"
     },
-    "punctuation.definition.metadata.markdown": {
-      "title": "[Custom] Markdown punctuation definition",
-      "value": "{core.#ffab70.value}"
+    "markup.quote.markdown meta.paragraph.markdown punctuation.definition.string.begin|markup.quote.markdown meta.paragraph.markdown punctuation.definition.string.end": {
+      "title": "Braces in markdown blockquotes",
+      "value": "{core.yellow.3.value}"
     },
-    "punctuation.definition.string.begin.markdown|punctuation.definition.string.end.markdown": {
-      "title": "[Custom] Markdown punctuation definition brackets",
-      "value": "{core.#79b8ff.value}"
+    "entity.name.type.class|entity.name.class": {
+      "title": "User-defined class names",
+      "fontStyle": "normal",
+      "value": "{core.blue.2.value}"
+    },
+    "keyword.expressions-and-types.swift|keyword.other.this|variable.language|variable.language punctuation.definition.variable.php|variable.other.readwrite.instance.ruby|variable.parameter.function.language.special": {
+      "title": "this, super, self, etc.",
+      "fontStyle": "italic",
+      "value": "{core.purple.1.value}"
+    },
+    "entity.other.inherited-class": {
+      "title": "Inherited classes",
+      "fontStyle": "italic",
+      "value": "{core.blue.2.value}"
+    },
+    "comment|punctuation.definition.comment|unused.comment|wildcard.comment": {
+      "title": "Comments",
+      "value": "{core.font.1.value}"
+    },
+    "comment keyword.codetag.notation|comment.block.documentation keyword|comment.block.documentation storage.type.class": {
+      "title": "JSDoc-style keywords",
+      "value": "{core.pink.1.value}"
+    },
+    "comment.block.documentation entity.name.type": {
+      "title": "JSDoc-style types",
+      "fontStyle": "italic",
+      "value": "{core.blue.2.value}"
+    },
+    "comment.block.documentation entity.name.type punctuation.definition.bracket": {
+      "title": "JSDoc-style type brackets",
+      "value": "{core.blue.2.value}"
+    },
+    "comment.block.documentation variable": {
+      "title": "JSDoc-style comment parameters",
+      "fontStyle": "italic",
+      "value": "{core.orange.1.value}"
+    },
+    "constant|variable.other.constant": {
+      "title": "Constants",
+      "value": "{core.purple.1.value}"
+    },
+    "constant.character.escape|constant.character.string.escape|constant.regexp": {
+      "title": "Constant escape sequences",
+      "value": "{core.pink.1.value}"
+    },
+    "entity.name.tag": {
+      "title": "HTML tags",
+      "value": "{core.pink.1.value}"
+    },
+    "entity.other.attribute-name.parent-selector": {
+      "title": "CSS attribute parent selectors ('&')",
+      "value": "{core.pink.1.value}"
+    },
+    "entity.other.attribute-name": {
+      "title": "HTML/CSS attribute names",
+      "fontStyle": "italic",
+      "value": "{core.green.1.value}"
+    },
+    "entity.name.function|meta.function-call.generic|meta.function-call.object|meta.function-call.php|meta.function-call.static|meta.method-call.java meta.method|meta.method.groovy|support.function.any-method.lua|keyword.operator.function.infix": {
+      "title": "Function names",
+      "value": "{core.green.1.value}"
+    },
+    "entity.name.variable.parameter|meta.at-rule.function variable|meta.at-rule.mixin variable|meta.function.arguments variable.other.php|meta.selectionset.graphql meta.arguments.graphql variable.arguments.graphql|variable.parameter": {
+      "title": "Function parameters",
+      "fontStyle": "italic",
+      "value": "{core.orange.1.value}"
+    },
+    "meta.decorator variable.other.readwrite|meta.decorator variable.other.property": {
+      "title": "Decorators",
+      "fontStyle": "italic",
+      "value": "{core.green.1.value}"
+    },
+    "meta.decorator variable.other.object": {
+      "title": "Decorator Objects",
+      "value": "{core.green.1.value}"
+    },
+    "keyword|punctuation.definition.keyword": {
+      "title": "Keywords",
+      "value": "{core.pink.1.value}"
+    },
+    "keyword.control.new|keyword.operator.new": {
+      "title": "Keyword \"new\"",
+      "fontStyle": "bold",
+      "value": ""
+    },
+    "meta.selector": {
+      "title": "Generic selectors (CSS/SCSS/Less/Stylus)",
+      "value": "{core.pink.1.value}"
+    },
+    "support": {
+      "title": "Language Built-ins",
+      "fontStyle": "italic",
+      "value": "{core.blue.2.value}"
+    },
+    "support.function.magic|support.variable|variable.other.predefined": {
+      "title": "Built-in magic functions and constants",
+      "fontStyle": "regular",
+      "value": "{core.purple.1.value}"
+    },
+    "support.function|support.type.property-name": {
+      "title": "Built-in functions / properties",
+      "fontStyle": "regular",
+      "value": ""
+    },
+    "constant.other.symbol.hashkey punctuation.definition.constant.ruby|entity.other.attribute-name.placeholder punctuation|entity.other.attribute-name.pseudo-class punctuation|entity.other.attribute-name.pseudo-element punctuation|meta.group.double.toml|meta.group.toml|meta.object-binding-pattern-variable punctuation.destructuring|punctuation.colon.graphql|punctuation.definition.block.scalar.folded.yaml|punctuation.definition.block.scalar.literal.yaml|punctuation.definition.block.sequence.item.yaml|punctuation.definition.entity.other.inherited-class|punctuation.function.swift|punctuation.separator.dictionary.key-value|punctuation.separator.hash|punctuation.separator.inheritance|punctuation.separator.key-value|punctuation.separator.key-value.mapping.yaml|punctuation.separator.namespace|punctuation.separator.pointer-access|punctuation.separator.slice|string.unquoted.heredoc punctuation.definition.string|support.other.chomping-indicator.yaml|punctuation.separator.annotation": {
+      "title": "Separators (key/value, namespace, inheritance, pointer, hash, slice, etc)",
+      "value": "{core.pink.1.value}"
+    },
+    "keyword.operator.other.powershell|keyword.other.statement-separator.powershell|meta.brace.round|meta.function-call punctuation|punctuation.definition.arguments.begin|punctuation.definition.arguments.end|punctuation.definition.entity.begin|punctuation.definition.entity.end|punctuation.definition.tag.cs|punctuation.definition.type.begin|punctuation.definition.type.end|punctuation.section.scope.begin|punctuation.section.scope.end|storage.type.generic.java|string.template meta.brace|string.template punctuation.accessor": {
+      "title": "Brackets, braces, parens, etc.",
+      "value": "{core.light.1.value}"
+    },
+    "meta.string-contents.quoted.double punctuation.definition.variable|punctuation.definition.interpolation.begin|punctuation.definition.interpolation.end|punctuation.definition.template-expression.begin|punctuation.definition.template-expression.end|punctuation.section.embedded.begin|punctuation.section.embedded.coffee|punctuation.section.embedded.end|punctuation.section.embedded.end source.php|punctuation.section.embedded.end source.ruby|punctuation.definition.variable.makefile": {
+      "title": "Variable interpolation operators",
+      "value": "{core.pink.1.value}"
+    },
+    "entity.name.function.target.makefile|entity.name.section.toml|entity.name.tag.yaml|variable.other.key.toml": {
+      "title": "Keys (serializable languages)",
+      "value": "{core.blue.2.value}"
+    },
+    "constant.other.date|constant.other.timestamp": {
+      "title": "Dates / timestamps (serializable languages)",
+      "value": "{core.orange.1.value}"
+    },
+    "variable.other.alias.yaml": {
+      "title": "YAML aliases",
+      "fontStyle": "italic underline",
+      "value": "{core.green.1.value}"
+    },
+    "storage|meta.implementation storage.type.objc|meta.interface-or-protocol storage.type.objc|source.groovy storage.type.def": {
+      "title": "Storage",
+      "fontStyle": "regular",
+      "value": "{core.pink.1.value}"
+    },
+    "entity.name.type|keyword.primitive-datatypes.swift|keyword.type.cs|meta.protocol-list.objc|meta.return-type.objc|source.go storage.type|source.groovy storage.type|source.java storage.type|source.powershell entity.other.attribute-name|storage.class.std.rust|storage.type.attribute.swift|storage.type.c|storage.type.core.rust|storage.type.cs|storage.type.groovy|storage.type.objc|storage.type.php|storage.type.haskell|storage.type.ocaml": {
+      "title": "Types",
+      "fontStyle": "italic",
+      "value": "{core.blue.2.value}"
+    },
+    "entity.name.type.type-parameter|meta.indexer.mappedtype.declaration entity.name.type|meta.type.parameters entity.name.type": {
+      "title": "Generics, templates, and mapped type declarations",
+      "value": "{core.orange.1.value}"
+    },
+    "storage.modifier": {
+      "title": "Modifiers",
+      "value": "{core.pink.1.value}"
+    },
+    "string.regexp|constant.other.character-class.set.regexp|constant.character.escape.backslash.regexp": {
+      "title": "RegExp string",
+      "value": "{core.yellow.3.value}"
+    },
+    "punctuation.definition.group.capture.regexp": {
+      "title": "Non-capture operators",
+      "value": "{core.pink.1.value}"
+    },
+    "string.regexp punctuation.definition.string.begin|string.regexp punctuation.definition.string.end": {
+      "title": "RegExp start and end characters",
+      "value": "{core.red.1.value}"
+    },
+    "punctuation.definition.character-class.regexp": {
+      "title": "Character group",
+      "value": "{core.blue.2.value}"
+    },
+    "punctuation.definition.group.regexp": {
+      "title": "Capture groups",
+      "value": "{core.orange.1.value}"
+    },
+    "punctuation.definition.group.assertion.regexp|keyword.operator.negation.regexp": {
+      "title": "Assertion operators",
+      "value": "{core.red.1.value}"
+    },
+    "meta.assertion.look-ahead.regexp": {
+      "title": "Positive lookaheads",
+      "value": "{core.green.1.value}"
+    },
+    "string": {
+      "title": "Strings",
+      "value": "{core.yellow.3.value}"
+    },
+    "punctuation.definition.string.begin|punctuation.definition.string.end": {
+      "title": "String quotes (temporary vscode fix)",
+      "value": "{core.yellow.2.value}"
+    },
+    "punctuation.support.type.property-name.begin|punctuation.support.type.property-name.end": {
+      "title": "Property quotes (temporary vscode fix)",
+      "value": "{core.blue.3.value}"
+    },
+    "string.quoted.docstring.multi|string.quoted.docstring.multi.python punctuation.definition.string.begin|string.quoted.docstring.multi.python punctuation.definition.string.end|string.quoted.docstring.multi.python constant.character.escape": {
+      "title": "Docstrings",
+      "value": "{core.font.1.value}"
+    },
+    "variable|constant.other.key.perl|support.variable.property|variable.other.constant.js|variable.other.constant.ts|variable.other.constant.tsx": {
+      "title": "Variables and object properties",
+      "value": "{core.light.1.value}"
+    },
+    "meta.import variable.other.readwrite|meta.object-binding-pattern-variable variable.object.property|meta.variable.assignment.destructured.object.coffee variable": {
+      "title": "Destructuring / aliasing reference name (LHS)",
+      "fontStyle": "italic",
+      "value": "{core.orange.1.value}"
+    },
+    "meta.import variable.other.readwrite.alias|meta.export variable.other.readwrite.alias|meta.variable.assignment.destructured.object.coffee variable variable": {
+      "title": "Destructuring / aliasing variable name (RHS)",
+      "fontStyle": "normal",
+      "value": "{core.light.1.value}"
+    },
+    "meta.selectionset.graphql variable": {
+      "title": "GraphQL keys",
+      "value": "{core.yellow.3.value}"
+    },
+    "meta.selectionset.graphql meta.arguments variable": {
+      "title": "GraphQL function arguments",
+      "value": "{core.light.1.value}"
+    },
+    "entity.name.fragment.graphql|variable.fragment.graphql": {
+      "title": "GraphQL fragment name (definition)",
+      "value": "{core.blue.2.value}"
+    },
+    "constant.other.symbol.hashkey.ruby|keyword.operator.dereference.java|keyword.operator.navigation.groovy|meta.scope.for-loop.shell punctuation.definition.string.begin|meta.scope.for-loop.shell punctuation.definition.string.end|meta.scope.for-loop.shell string|storage.modifier.import|punctuation.section.embedded.begin.tsx|punctuation.section.embedded.end.tsx|punctuation.section.embedded.begin.jsx|punctuation.section.embedded.end.jsx|punctuation.separator.list.comma.css|constant.language.empty-list.haskell": {
+      "title": "Edge cases (foreground color resets)",
+      "value": "{core.light.1.value}"
+    },
+    "source.shell variable.other": {
+      "title": "Shell variables prefixed with \"$\" (edge case)",
+      "value": "{core.purple.1.value}"
+    },
+    "support.constant": {
+      "title": "Powershell constants mistakenly scoped to `support`, rather than `constant` (edge)",
+      "fontStyle": "normal",
+      "value": "{core.purple.1.value}"
+    },
+    "meta.scope.prerequisites.makefile": {
+      "title": "Makefile prerequisite names",
+      "value": "{core.yellow.3.value}"
+    },
+    "meta.attribute-selector.scss": {
+      "title": "SCSS attibute selector strings",
+      "value": "{core.yellow.3.value}"
+    },
+    "punctuation.definition.attribute-selector.end.bracket.square.scss|punctuation.definition.attribute-selector.begin.bracket.square.scss": {
+      "title": "SCSS attribute selector brackets",
+      "value": "{core.light.1.value}"
+    },
+    "meta.preprocessor.haskell": {
+      "title": "Haskell Pragmas",
+      "value": "{core.font.1.value}"
     }
   }
 }
