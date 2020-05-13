@@ -3,7 +3,6 @@
 	"displayName": "Min Opaque Theme",
 	"description": "A VS Code theme that is opaque.",
 	"publisher": "expalmer",
-	"license": "MIT",
 	"version": "1.0.0",
 	"repository": {
 		"type": "git",
@@ -23,7 +22,7 @@
 		"publish": "vsce publish"
 	},
 	"galleryBanner": {
-		"color": "#0C001F",
+		"color": "#333333",
 		"theme": "dark"
 	},
 	"icon": "images/icon.png",
