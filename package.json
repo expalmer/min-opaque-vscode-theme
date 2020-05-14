@@ -1,7 +1,7 @@
 {
 	"name": "min-opaque",
 	"displayName": "Min Opaque Theme",
-	"description": "A VS Code theme that is opaque.",
+	"description": "A VSCode theme that is minimally opaque.",
 	"publisher": "expalmer",
 	"version": "1.0.0",
 	"repository": {
@@ -47,10 +47,5 @@
 	"devDependencies": {
 		"chokidar-cli": "^2.1.0",
 		"style-dictionary": "^2.10.0"
-	},
-	"__metadata": {
-		"id": "",
-		"publisherDisplayName": "",
-		"publisherId": ""
 	}
 }

@@ -3,11 +3,11 @@
     "black": {
       "1": {
         // linhas entre as telas
-        "value": "#212121"
+        "value": "#282828"
       },
       "2": {
         // tree view
-        "value": "#262626"
+        "value": "#2d2d2d"
       },
       "3": {
         // background do code
@@ -15,7 +15,7 @@
       },
       // sidebar da esquerda saca
       "4": {
-        "value": "#262626"
+        "value": "#2d2d2d"
       },
       // quando o cursor para em cima de uma palavra
       "5": {
@@ -73,10 +73,10 @@
     // PINK
     "pink": {
       "1": {
-        "value": "#b26181"
+        "value": "#ba6889"
       },
       "2": {
-        "value": "#b26181"
+        "value": "#ba6889"
       }
     },
     // VERDE
