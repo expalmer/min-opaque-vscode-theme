@@ -2,30 +2,37 @@
   "core": {
     "black": {
       "1": {
-        "value": "#292929"
+        // linhas entre as telas
+        "value": "#212121"
       },
       "2": {
-        "value": "#333333"
+        // tree view
+        "value": "#262626"
       },
       "3": {
-        "value": "#333333"
+        // background do code
+        "value": "#2d2d2d"
       },
+      // sidebar da esquerda saca
       "4": {
-        "value": "#333333"
+        "value": "#262626"
       },
+      // quando o cursor para em cima de uma palavra
       "5": {
-        "value": "#606060"
+        "value": "#585757"
       },
+      // cursor
       "6": {
-        "value": "#696969"
+        "value": "#403f3f"
       }
     },
+    // CANETA AZUL
     "green": {
       "1": {
-        "value": "#87a3bb"
+        "value": "#7daeb9"
       },
       "2": {
-        "value": "#8aa9c3"
+        "value": "#7daeb9"
       }
     },
     "font": {
@@ -33,6 +40,7 @@
         "value": "#606060"
       }
     },
+    // ROXINHO
     "blue": {
       "2": {
         "value": "#aa90b8"
@@ -44,30 +52,34 @@
         "value": "#c0a0d2"
       }
     },
+    // LARANJINHA
     "purple": {
       "1": {
-        "value": "#dca272"
+        "value": "#c78258"
       },
       "2": {
-        "value": "#e6a570"
+        "value": "#c78258"
       }
     },
     "red": {
+      // error: quando tem erro em algo
       "1": {
-        "value": "#ff5555"
+        "value": "#ee6d62"
       },
       "2": {
-        "value": "#ff6e6e"
+        "value": "#000000"
       }
     },
+    // PINK
     "pink": {
       "1": {
-        "value": "#ba6869"
+        "value": "#b26181"
       },
       "2": {
-        "value": "#af5f60"
+        "value": "#b26181"
       }
     },
+    // VERDE
     "orange": {
       "1": {
         "value": "#9fc05f"
@@ -86,10 +98,10 @@
     },
     "light": {
       "1": {
-        "value": "#c2baa1"
+        "value": "#bfb2a3"
       },
       "2": {
-        "value": "#9b9b9b"
+        "value": "#bfb2a3"
       }
     }
   }

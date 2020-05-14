@@ -64,10 +64,3 @@ function createSyntax() {
 
   fs.writeFile('../tokens/syntax.json', `{ "syntax": ${JSON.stringify(tokenHexa)} }`, () => { })
 }
-
-
-
-
-
-
-
