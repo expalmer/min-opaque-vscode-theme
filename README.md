@@ -1,5 +1,7 @@
 # Min Opaque
 
-A VSCode Dark Theme
+> A VSCode theme that is minimally opaque.
 
-`ln -s ~/tmp/min-opaque-vscode-theme ~/.vscode/extensions/expalmer.min-opaque-theme-0.0.1`
+## References
+
+Thanks (Danny Banks `dbanksdesign`)[https://github.com/dbanksdesign] for your great guide => [Nu Disco Theme](https://github.com/dbanksdesign/nu-disco-vscode-theme)
