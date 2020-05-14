@@ -17,7 +17,7 @@
 	},
 	"scripts": {
 		"build": "node build.js",
-		"watch": "npm run build && chokidar \"tokens/*.json\" -c \"npm run build\"",
+		"watch": "npm run build && chokidar \"tokens/*.json*\" -c \"npm run build\"",
 		"start": "npm run watch",
 		"prepublish": "npm run build",
 		"publish": "vsce publish"
